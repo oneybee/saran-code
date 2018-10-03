@@ -1,0 +1,57 @@
+body {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: #222;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #222
+}
+a:hover {
+    text-decoration: none;
+    color: #222;
+}
+h5 {
+    margin-bottom:2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+.navBar {
+    height: 50px;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-left: 4px;
+    margin-bottom: 80px;
+}
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
+}
+.marginRight40{
+    margin-right: 40px;
+}
+.marginTop40 {
+    margin-top:40px;
+}
+
+.offset-by-one {
+    margin-left: 8%;
+}
+@media only screen and (max-width: 576px) {
+    .offset-by-one {
+      margin-left: 0%;
+    }
+  }
